@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn-form {
+  padding: 6px 9px;
+  background-color: rgb(100, 141, 187);
+  color: white;
+}
+
+.btn-form:hover {
+  padding: 6px 9px;
+  background-color: rgb(100, 130, 165);
+}
+
+.edit-data {
+  margin-bottom: 3px;
+}
+
+.edit-data input {
+  width: 110px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+ul li {
+  display: flex;
+  border: 2px solid transparent;
+  border-color: #000000;
+  padding: 5px 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  width: 100%;
+}
+
+ul li p {
+  margin-right: auto;
+}
+
+ul li button {
+  padding: 0;
+  height: 40px;
+  padding: 0 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.btn-delete {
+  background-color: rgb(245, 50, 50);
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: rgb(197, 27, 27);
+  color: white;
+}
+
+.btn-edit {
+  background-color: rgb(242, 245, 50);
+}
+
+.btn-edit:hover {
+  background-color: rgb(192, 182, 37);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
