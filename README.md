@@ -12,6 +12,6 @@
 
 - dan file react anda sudah terbuka di browser anda
 
-- setelah menjalankan react, arahkan terminal anda menuju folder TodoApi (cd ../TodoApi)
+- setelah menjalankan react, buka terminal baru dan arahkan terminal anda menuju folder TodoApi (cd ../TodoApi)
 
 - masukan (dotnet run) ke dalam terminal anda, dan file dotnet sudah siap digunakan
